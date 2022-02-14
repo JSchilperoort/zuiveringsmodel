@@ -50,10 +50,3 @@ class Water:
 class Influent(Water):
     def __init__(self, volume=0.0, NH4=0.0, NO3=0.0, bzv=850, O2=0.0):
         super().__init__(volume=volume, NH4=NH4, NO3=NO3, bzv=bzv, O2=O2)
-
-
-class Tank(Water):
-    def __init__(self, volume=0.0, NH4=0.0, NO3=0.0, bzv=0.0, O2=0.0):
-        super().__init__(volume=volume, NH4=NH4, NO3=NO3, bzv=bzv, O2=O2)
-
-        self.volume_tank = volume

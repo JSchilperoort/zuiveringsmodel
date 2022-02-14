@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+test.py
+test.ipynb
+create_influent.ipynb
+
 # C extensions
 *.so
 
